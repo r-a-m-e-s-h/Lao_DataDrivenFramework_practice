@@ -23,8 +23,11 @@ public class EasyAproach_ExcelData {
 	@DataProvider(name="LoginData")
 	public Object[][] test() throws IOException
 	{
-
-		FileInputStream fis = new FileInputStream("C://Users//rames//OneDrive//Documents//TestData1.xlsx");
+		String fpath = System.getProperty("user.dir")+"/Excel-Data/TestData1.xlsx";
+		
+		FileInputStream fis = new FileInputStream(fpath);
+		
+		//FileInputStream fis = new FileInputStream("C://Users//rames//OneDrive//Documents//TestData1.xlsx");
 
 		XSSFWorkbook book = new XSSFWorkbook(fis);
 
