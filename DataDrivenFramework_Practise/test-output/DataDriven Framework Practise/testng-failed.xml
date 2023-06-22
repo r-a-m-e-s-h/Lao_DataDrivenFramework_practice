@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DataDriven Framework Practise]">
+  <test thread-count="5" name="DataDriven testing(failed)">
+    <classes>
+      <class name="Testcases.BothareCorrect">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- Testcases.BothareCorrect -->
+    </classes>
+  </test> <!-- DataDriven testing(failed) -->
+</suite> <!-- Failed suite [DataDriven Framework Practise] -->

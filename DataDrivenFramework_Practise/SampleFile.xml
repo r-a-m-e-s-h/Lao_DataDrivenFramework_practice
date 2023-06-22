@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="DataDriven Framework Practise">
+
+	<test name="DataDriven testing">
+
+		<classes>
+
+			<class name="Testcases.BothareCorrect"></class>
+
+			<class name="Testcases.BothareInCorrect"></class>
+
+			<class name="Testcases.PasswordOnlyCorrect"></class>
+
+			<class name="Testcases.UsernameOnlyCorrect"></class>
+
+		</classes>
+
+
+	</test>
+
+
+</suite>

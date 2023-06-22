@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="DataDriven Framework Practise">
+
+	<test name="DataDriven testcase1">
+
+		<parameter name="userName1" value="Admin"></parameter>
+		<parameter name="pwd1" value="admin123"></parameter>
+
+		<classes>
+
+			<class name="Testcases.BothareCorrect"></class>
+
+		</classes>
+		</test>
+
+		<test name="DataDriven testcase2">
+
+			<parameter name="userName1" value="Admin"></parameter>
+			<parameter name="pwd1" value="admin123"></parameter>
+
+					<classes>
+					
+
+						<class name="Testcases.BothareIncorrect"></class>
+
+					</classes>
+					</test>
+					
+					<test name="DataDriven testcase3">
+
+						<parameter name="userName1" value="Admin"></parameter>
+						<parameter name="pwd1" value="admin123"></parameter>
+
+						<classes>
+
+							<class name="Testcases.PasswordOnlyCorrect"></class>
+
+						</classes>
+						</test>
+						
+						<test name="DataDriven testcase4">
+
+							<parameter name="userName1" value="Admin"></parameter>
+							<parameter name="pwd1" value="admin123"></parameter>
+
+							<classes>
+
+								<class name="Testcases.UsernameOnlyCorrect"></class>
+
+							</classes>
+			
+						</test>
+
+
+</suite>
